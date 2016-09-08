@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Voodoo/Scenes/Whack.unity
+- path: Assets/_Voodoo/Scenes/WaterRings.unity
   isLoaded: 1
   isActive: 1

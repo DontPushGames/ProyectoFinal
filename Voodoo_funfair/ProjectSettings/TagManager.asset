@@ -22,6 +22,9 @@ TagManager:
   - Quit
   - AudioVoices
   - soonRayLevelTarget
+  - rayRightArrow
+  - rayLeftArrow
+  - Pin
   layers:
   - Default
   - TransparentFX

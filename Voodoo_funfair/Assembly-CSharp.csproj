@@ -191,6 +191,12 @@
      <Compile Include="Assets\_Voodoo\Scripts\Selector\SelectorUiManager.cs" />
      <Compile Include="Assets\_Voodoo\Scripts\Spawner.cs" />
      <Compile Include="Assets\_Voodoo\Scripts\SplashScreenScene.cs" />
+     <Compile Include="Assets\_Voodoo\Scripts\WaterRings\BubblesSpawner.cs" />
+     <Compile Include="Assets\_Voodoo\Scripts\WaterRings\WaterCapsule.cs" />
+     <Compile Include="Assets\_Voodoo\Scripts\WaterRings\WaterRayCaster.cs" />
+     <Compile Include="Assets\_Voodoo\Scripts\WaterRings\WaterRing.cs" />
+     <Compile Include="Assets\_Voodoo\Scripts\WaterRings\WaterRingsUIManager.cs" />
+     <Compile Include="Assets\_Voodoo\Scripts\WaterRings\WaterTextureOffset.cs" />
      <Compile Include="Assets\_Voodoo\Scripts\Whack\LevelAudioManager.cs" />
      <Compile Include="Assets\_Voodoo\Scripts\Whack\LevelUIManager.cs" />
      <Compile Include="Assets\_Voodoo\Scripts\Whack\PauseGame.cs" />
@@ -335,7 +341,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="Parse.Unity">
- <HintPath>C:/Users/dontp/Documents/preFinal/Voodoo_funfair/Assets/Parse/Parse.Unity.dll</HintPath>
+ <HintPath>C:/Users/dontp/Documents/preFinal/ProyectoFinal/Voodoo_funfair/Assets/Parse/Parse.Unity.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
