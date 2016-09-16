@@ -405,10 +405,10 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 85401074}
-  m_LocalRotation: {x: 0, y: 0.17364784, z: 0, w: -0.98480785}
+  m_LocalRotation: {x: 0, y: 0.73727715, z: 0, w: -0.6755904}
   m_LocalPosition: {x: 0, y: 1, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
-  m_LocalEulerAnglesHint: {x: 0, y: 340, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalEulerAnglesHint: {x: 0, y: 265, z: 0}
   m_Children: []
   m_Father: {fileID: 1109375536}
   m_RootOrder: 1
@@ -438,7 +438,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3b362bba6270de247bd1d6f277186189, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cf061d207c843864796760323d459fa1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -681,6 +681,10 @@ Prefab:
       propertyPath: selectorTicketsAmount
       value: 
       objectReference: {fileID: 1916385690}
+    - target: {fileID: 11475200, guid: 7f1983caaba05b34094f2c9f2464ddeb, type: 2}
+      propertyPath: waterRingsLevelOrbe
+      value: 
+      objectReference: {fileID: 1109375531}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7f1983caaba05b34094f2c9f2464ddeb, type: 2}
   m_IsPrefabParent: 0
@@ -2499,8 +2503,8 @@ GameObject:
   - 23: {fileID: 1109375533}
   - 95: {fileID: 1109375532}
   m_Layer: 0
-  m_Name: Orbe2
-  m_TagString: soonRayLevelTarget
+  m_Name: WaterRings
+  m_TagString: rayLevelTarget
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2532,7 +2536,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: caa758ce0d3aec54bbdb906bc69fd113, type: 2}
+  - {fileID: 2100000, guid: a54483362b1cced4d8a43ae0aad26cf3, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -2573,10 +2577,10 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1109375531}
-  m_LocalRotation: {x: 0, y: -0.72586966, z: 0, w: -0.68783236}
+  m_LocalRotation: {x: 0, y: 0.9961947, z: 0, w: 0.087155566}
   m_LocalPosition: {x: 15, y: 0.7399998, z: 2.2}
   m_LocalScale: {x: 2.8638983, y: 2.8638964, z: 2.8638995}
-  m_LocalEulerAnglesHint: {x: 0, y: -266.91748, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 170, z: 0}
   m_Children:
   - {fileID: 2025142222}
   - {fileID: 85401075}

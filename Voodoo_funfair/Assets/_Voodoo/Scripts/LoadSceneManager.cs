@@ -10,6 +10,7 @@ public class LoadSceneManager : MonoBehaviour {
 		SceneUIManager.OnLoadNextLevel += LoadNextLevel;
 		LevelUIManager.OnLoadNextLevel += LoadNextLevel;
 		SelectorUiManager.OnLoadNextLevel += LoadNextLevel;
+		WaterRingsUIManager.OnLoadNextLevel += LoadNextLevel;
 	}
 	
 
@@ -18,6 +19,7 @@ public class LoadSceneManager : MonoBehaviour {
 		SceneUIManager.OnLoadNextLevel -= LoadNextLevel;
 		LevelUIManager.OnLoadNextLevel -= LoadNextLevel;
 		SelectorUiManager.OnLoadNextLevel -= LoadNextLevel;
+		WaterRingsUIManager.OnLoadNextLevel -= LoadNextLevel;
 	}
 
 

@@ -13,3 +13,5 @@ EditorBuildSettings:
     path: Assets/_Voodoo/Scenes/LevelSelector.unity
   - enabled: 1
     path: Assets/_Voodoo/Scenes/Whack.unity
+  - enabled: 1
+    path: Assets/_Voodoo/Scenes/WaterRings.unity

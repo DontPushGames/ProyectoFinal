@@ -66,7 +66,7 @@ public class SelectorUiManager : MonoBehaviour {
 		case "Orbe1":
 			storeTitle.SetActive (true);
 			break;
-		case "Orbe2":
+		case "WaterRings":
 			ringsTitle.SetActive (true);
 			break;
 

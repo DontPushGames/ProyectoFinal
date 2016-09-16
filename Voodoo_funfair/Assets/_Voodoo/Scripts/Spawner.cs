@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class Spawner : MonoBehaviour {
@@ -21,17 +22,17 @@ public class Spawner : MonoBehaviour {
 	}
 	
 
-	void Update () 
-	{
-		if(Input.GetMouseButtonDown(0) && Time.time >= timeCheck)
-		{
-			if (OnGearInputDown != null) 
-			{
-				OnGearInputDown ();
+	void Update ()
+	{ 
+		
+			if (Input.GetMouseButtonDown (0) && Time.time >= timeCheck) {
+				if (OnGearInputDown != null) {
+					OnGearInputDown ();
+				}
+				Instantiate (projectile, transform.position, transform.rotation);
+				audioSource.PlayOneShot (scepterAudio);
+				timeCheck = Time.time + timeBetweenShots;
 			}
-			Instantiate (projectile, transform.position, transform.rotation);
-			audioSource.PlayOneShot (scepterAudio);
-			timeCheck = Time.time + timeBetweenShots;
-		}
+	
 	}
 }

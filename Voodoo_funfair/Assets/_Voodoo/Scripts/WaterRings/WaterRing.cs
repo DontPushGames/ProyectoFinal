@@ -18,10 +18,13 @@ public class WaterRing : MonoBehaviour {
 	public GameObject[] pin;
 	public GameObject[] pinGroup;
 
+	public AudioClip scoreHit;
+	private AudioSource ringAudioSource;
+
 	void Start () 
 	{
 		ringRigidbody = gameObject.GetComponent<Rigidbody> ();
-
+		ringAudioSource = gameObject.GetComponent<AudioSource> ();
 	}
 
 	void Update()
@@ -71,6 +74,7 @@ public class WaterRing : MonoBehaviour {
 			{
 				OnIncreaseScore ();
 			}
+			ringAudioSource.PlayOneShot (scoreHit);
 			Destroy (col.transform.parent.gameObject);
 			scoreSum++;
 		}

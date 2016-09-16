@@ -52,6 +52,8 @@ public class WaterRingsUIManager : MonoBehaviour {
 	public GameObject endChoisePanel;
 	public Light sceneLight;
 
+	public GameObject[] scepters;
+
 	private int ticketsAmount;
 
 	void Awake () 
@@ -167,6 +169,13 @@ public class WaterRingsUIManager : MonoBehaviour {
 		endChoisePanel.SetActive(true);
 		endInGamePanel.SetActive (true);
 		endInGamePanelAnimator.SetBool ("showEndPanel",true);
+		scepters [0].SetActive (true);
+		scepters [1].SetActive (true);
+	}
+
+	void LevelFinished()
+	{
+		
 	}
 
 	private string TextDisplay(int amount, int digits)

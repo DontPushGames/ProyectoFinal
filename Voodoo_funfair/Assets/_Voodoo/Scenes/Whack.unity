@@ -3138,6 +3138,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 13
       objectReference: {fileID: 0}
+    - target: {fileID: 186832, guid: 06d428d427fddb845ae976b3f080d635, type: 2}
+      propertyPath: m_TagString
+      value: rayLevelTarget
+      objectReference: {fileID: 0}
+    - target: {fileID: 186832, guid: 06d428d427fddb845ae976b3f080d635, type: 2}
+      propertyPath: m_Name
+      value: LevelSelector
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 06d428d427fddb845ae976b3f080d635, type: 2}
   m_IsPrefabParent: 0
@@ -3302,6 +3310,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 16
       objectReference: {fileID: 0}
+    - target: {fileID: 11423170, guid: 1a552f93dc056824d8d883c46961391d, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dce2cd4703b889341a396e1923ecd811,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a552f93dc056824d8d883c46961391d, type: 2}
   m_IsPrefabParent: 0

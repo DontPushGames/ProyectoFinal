@@ -17,6 +17,10 @@ public class SelectorAnimManager : MonoBehaviour {
 
 	private Animator whackLevelOrbeAnimator;
 
+	public GameObject waterRingsLevelOrbe;
+
+	private Animator waterRingsOrbeAnimator;
+
 	public GameObject selectorTicketsAmount;
 
 	private Animator selectorTicketsAmountAnimator;
@@ -26,6 +30,7 @@ public class SelectorAnimManager : MonoBehaviour {
 		rSphereAnimator = rSphere.GetComponent<Animator> ();
 		lSphereAnimator = lSphere.GetComponent<Animator> ();
 		whackLevelOrbeAnimator = whackLevelOrbe.GetComponent<Animator> ();
+		waterRingsOrbeAnimator = waterRingsLevelOrbe.GetComponent<Animator> ();
 		selectorTicketsAmountAnimator = selectorTicketsAmount.GetComponent<Animator> ();
 	}
 
@@ -71,6 +76,10 @@ public class SelectorAnimManager : MonoBehaviour {
 			whackLevelOrbeAnimator.SetBool ("FadeOrbe", true);
 			break;
 
+		case "WaterRings":
+			waterRingsOrbeAnimator.SetBool ("FadeOrbe", true);
+			break;
+
 		default:
 			break;
 		}
@@ -86,6 +95,9 @@ public class SelectorAnimManager : MonoBehaviour {
 		if (whackLevelOrbeAnimator.GetBool ("FadeOrbe") == true) 
 		{
 			whackLevelOrbeAnimator.SetBool ("FadeOrbe", false);
+		}else if (waterRingsOrbeAnimator.GetBool ("FadeOrbe") == true) 
+		{
+			waterRingsOrbeAnimator.SetBool ("FadeOrbe", false);
 		}
 	}
 }
